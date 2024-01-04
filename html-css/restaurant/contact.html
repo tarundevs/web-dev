@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body
+            {
+                background: url('https://wallpapers.com/images/hd/leather-texture-pictures-po8ezad4v6huvney.jpg') ;
+				background-attachment:fixed;
+				background-position: center;
+			}
+            h1#survey
+            {
+                margin-top: 30px;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: xx-large;
+				color: rgba(255, 228, 196, 0.566);
+            }
+            form
+            {
+                background-color: #9478549f;
+			    max-width: 500px;
+			    margin: 50px auto;
+			    padding: 10px 70px;
+			    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+                border-radius: 32px;
+            }
+            .form-control
+            {
+                text-align: left;
+			    margin-bottom: 25px;
+            }
+            .form-control label
+            {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: large;
+                display: block;
+                margin-left: 50px;
+			    margin-bottom: 10px;
+            }
+            .form-control input[type="text"],
+		    .form-control select,
+		    .form-control textarea 
+            {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: medium;
+                margin-left: 50px;
+                background-color: bisque;
+                border: 1px solid rgb(86, 86, 86);
+                border-radius: 8px;
+                padding: 15px;
+                display: block;
+                width: 68%;
+                box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		    }
+
+            .form-control input[type="radio"],
+		.form-control input[type="checkbox"] 
+        {
+            margin-left: 25px;
+            background-color: bisque;
+            border: 1px solid rgb(86, 86, 86);
+            border-radius: 8px;
+            box-shadow: 1px 1px 10px rgba(43, 43, 43, 0.5);
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: rgb(248, 224, 193);
+			border: 1px solid #0b0b0b;
+			border-radius: 8px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 50%;
+			margin-top: 20px;
+            margin-left: 20%;
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+		}
+        </style>
+    </head>
+
+    <body>
+        <h1 id="survey">contact us</h1>
+        <form id="form">
+        <div class="form-control">
+            <!-- name-->
+            <label for="name" id="lab-name">
+                Name
+            </label><!--input type here-->
+            <input type="text" id="name" placeholder="Enter your Name">
+<br><!-- email-->
+            <label for="Email" id="lab-email">
+                Phone number
+            </label>
+            <input type="text" id="email" placeholder="Enter your email ID">
+<br><!-- age-->
+            <label for="Age" id="lab-age">
+                Email
+            </label>
+            <input type="text" id="age" placeholder="Enter your age">
+<br><!-- question 1 -->
+            <label for="q1" id="lab-q1">
+                Type of query?
+            </label>
+<br><!--dropdown list-->
+            <select name="role" id="role">
+                <option value="text1">order issues</option>
+                <option value="text2">site issues</option>
+                <option value="text3">complaint issues</option>
+                <option value="text4">delivery issues</option>
+                <option value="text5">other</option>
+            </select>
+<br><!--question 2-->
+
+            <label for="q2" id="lab-q2">
+                Are you a member of chili's?
+            </label>
+<br>        <!-- here, attribute name decides if its single select or multiple select. If they share the same name, then its single select. if different, then its multiple select-->
+            <label for="text1"><input type="radio" id="text1" name="text">Yes</input> </label>
+<br>
+            <label for="text2"><input type="radio"id="text2"name="text">No</input> </label>
+<br>        <!-- any commets?-->
+            <label for="comments" id="lab-comments">
+                Elablorate on query.
+            </label>
+<br>
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"> </textarea>
+<br>
+            <button type="submit" value="submit">
+                Submit
+            </button>
+			<button type="submit" value="submit">
+                reset
+            </button>
+<br>
+        </div>
+        </form>
+
+
+    </body>
+</html>

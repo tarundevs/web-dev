@@ -1,0 +1,218 @@
+body{
+    background: url('https://wallpapers.com/images/hd/leather-texture-pictures-po8ezad4v6huvney.jpg');
+    background-attachment: fixed;
+}
+/*Header Styling*/
+
+#title{
+    color:rgb(245, 10, 10);
+    text-align:center;
+    font-size:46px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#abc
+{
+    background: url('https://tb-static.uber.com/prod/image-proc/processed_images/8e84526c46fc82f0d1fdb51fe76f93c2/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg') no-repeat center;
+    background-attachment: fixed;
+    filter: blur(0.5px);
+    background-size: 50% auto;
+    width: 100vw;
+    height:63vh;
+}
+
+/*Navbar Functionality*/
+#res-content{
+    background-color: rgba(255, 228, 196, 0.416);
+    height: 7vh;
+    width: 96vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top:15px;
+   border: 2px solid black;
+   border-radius:8px;
+   text-align: center;
+}
+
+
+/*Navbar content functionality*/
+#res-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Navbar content styling*/
+ul li
+{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:black;
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* website background image designing */
+#container1{
+    background: url('https://staging2.glebekitchen.com/wp-content/uploads/2020/02/garlicchillichickenfrontspoon-850x1024.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height:63vh;
+}
+
+/*Setting the background image using before pseudo selector*/ 
+#container1::before{
+    
+    width: 100vw;
+    height:59vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-right:45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+    border-bottom-left-radius: 100px;
+}
+
+#row1{
+   color: rgba(255, 228, 196, 0.667);
+    font-weight:bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35px;
+}
+/*Button Styling*/
+.btn{
+    margin-top:15px;
+    border: 3px solid white;
+    border-radius:15px;
+    background-color:yellow;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row2{
+    
+    background: url('https://im.whatshot.in/img/2023/Jul/be-funky-2023-07-27t170305350-1690458477.jpg?q=90') no-repeat center center/cover;
+    width:24vw;
+    height:21vh;
+    box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     margin-right: 38px;
+     border-radius: 40px;
+}
+#row2::before{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#row3{
+    background: url('https://im.whatshot.in/img/2023/Jul/fajita-gbd-crispycrisperfajita-8913-cropped-1-1689834903.jpg?q=90') no-repeat center center/cover;
+    position: relative;
+    width: 24vw;
+    height:21vh;
+    display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     
+     margin-left: 38px;
+     border-radius: 40px;
+}
+#row3::before{
+    content: '';
+    
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+
+#top3{
+    text-align: center;
+    color:red;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#container4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}  
+#row4{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('https://i.ytimg.com/vi/w3pDefQM0RM/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYciBOKC8wDw==&rs=AOn4CLB9mFnG1A8eBjm-bzKuZtRcaC0lTA') no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row5{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('https://im.whatshot.in/img/2023/Jul/fresh-mex-chipotle-chicken-bowl-cropped-1689753208.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row6{
+    width: 30vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('https://im.whatshot.in/img/2023/Jul/oldtimer-burger-cheese-1-cropped-1689834719.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+/*Designing the footer*/
+footer{
+    text-align: center;
+}
+
+
+
+
