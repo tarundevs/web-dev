@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(0, 0, 0, 0);
+    
+    background-image:url('https://wallpapers.com/images/hd/leather-texture-pictures-po8ezad4v6huvney.jpg');
+    background-attachment: fixed; 
+
+}
+
+.card{
+    width: 90%;
+    max-width: 600px;
+    padding: 20px 5px 20px;
+    background: linear-gradient(135deg, #10ffbf, #8f7ff7);
+    color:#fff;
+    margin:100px auto 0;
+    border-radius: 12%;
+    text-align: center;
+}
+
+.search{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 6.5vw;
+    
+    justify-content: space-between;
+}
+
+.search input{
+    border:0;
+    outline: 0;
+    background: #ebfffc6d;
+    color:#000000;
+    padding: 10px 25px;
+    height:50px;
+    border-radius: 23%;
+    flex:1;
+    margin-right:16px;
+    font-size:18px;
+    box-shadow: 1px 1px 6px black;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc6d;
+    border-radius: 40%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px black;
+}
+
+.search button img{
+    width:16px;
+
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    
+    display: flex;
+    align-items: left;
+    justify-content:space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+.humidity, .wind{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.weather{
+    display:none;
+}
+.error{
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}
