@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 20px; 
+    background: rgb(105, 101, 96);
+}
+
+.docmenu
+{
+    position: sticky;
+    width: 15%;
+    /* position: sticky won't work without defining top margin */
+    top:8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.docmenu header
+{
+    padding: 15px;
+    background: gray;
+    
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black; 
+}
+
+.docmenu a{
+    margin-top: 7px;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black;
+    padding: 12px;
+    background: gray;
+    text-decoration: none;
+}
+
+.maindoc
+{
+    color: black;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-radius: 2%;
+    border-color: black;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    transform: translate(21%, -9.8%);
+    background-color: rgb(205, 205, 205);
+}
+
+.maindoc #intro
+{
+    background: rgb(205, 205, 205)
+}
+
+.maindoc header{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.maindoc p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.maindoc code{
+    display: block;
+    width: 20vw;
+    height: auto;
+    background-color: gray;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black;
+    padding: 20px;
+}
+
+.maindoc ul{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.maindoc hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 74.7vw;
+    padding: 10px;
+    transform: translateX(-30px);
+}
