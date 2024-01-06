@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box; 
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(73, 73, 141) ,rgb(145, 58, 145));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    margin:12%;  
+}
+
+.container h2{
+    display: flex;  
+    font-weight: 500;
+    font-size: 45px;
+    color: white;
+    
+
+}
+
+.container h2 img{
+    width:50px;
+    height: auto;
+}
+
+.container button
+{
+    border:0;
+    outline:0;
+    margin-top: 30px;
+    background: rgb(81, 7, 81);
+    color:#fff;
+    font-size: 22px;
+    font-weight: 500;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 12px 30px;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px black;
+    border-radius: 1% 35px;
+}
+
+.container button img
+{
+    width: 28px;
+    margin-right: 10px;
+
+}
+
+.notes-container 
+{
+    width: 500px;
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+.input-box, .selected
+{ 
+    width: 500px;
+    display: flex; 
+    max-width: 500px;
+    min-height: 150px;       
+}
+
+.input-box p,  .selected p
+{ 
+    outline: 0;
+    border: 0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    min-height: 150px;
+    
+    color: black;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px black;
+}
+
+.input-box p
+{
+    
+    background: white;
+}
+
+.input-box p:hover
+{
+    background: rgba(255, 255, 255, 0.651);
+}
+
+.selected p
+{   
+    background: rgba(255, 255, 255, 0.651);
+}
+
+.input-box img, .selected img
+{
+    transform: translate(-30px,141px);
+    margin: 0;
+    padding: 0; 
+    height: 22px;
+    width:auto;  
+    cursor:pointer;
+
+     
+}   
+/* .notes-container p
+{ 
+    position: relative;
+
+    width: 100%;
+    max-width: 500px; 
+    min-height: 150px;
+    
+    background: white;
+    color: black;
+
+    padding: 20px;
+    margin: 20px 0px; 
+
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px black;
+}
+
+
+
+.notes-container p img
+{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+    width:30px;
+    cursor:pointer;
+} */
+
+
+
